@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<banco>
+    <sucursal id="1">
+        <cuenta id="10">
+            <cliente>
+                <nombre>Carlos Jiménez</nombre>
+                <dni>12345678Z</dni>
+                <telefono>612345678</telefono>
+                <correo>carlos.jimenez@gmail.com</correo>
+                <direccion>Calle Mayor 15, Madrid</direccion>
+                <empleo>Ingeniero Informático</empleo>
+            </cliente>
+        </cuenta>
+        <cuenta id="11">
+            <cliente>
+                <nombre>Laura Sánchez</nombre>
+                <dni>87654321M</dni>
+                <telefono>678912345</telefono>
+                <correo>laura.sanchez@gmail.com</correo>
+                <direccion>Avenida de la Constitución 22, Sevilla</direccion>
+                <empleo>Doctora</empleo>
+            </cliente>
+        </cuenta>
+        <cuenta id="12">
+            <cliente>
+                <nombre>David Fernández</nombre>
+                <dni>45678912K</dni>
+                <telefono>634567890</telefono>
+                <correo>david.fernandez@gmail.com</correo>
+                <direccion>Calle del Sol 8, Valencia</direccion>
+                <empleo>Profesor</empleo>
+            </cliente>
+        </cuenta>
+        <cuenta id="13">
+            <cliente>
+                <nombre>María López</nombre>
+                <dni>11223344P</dni>
+                <telefono>622334455</telefono>
+                <correo>maria.lopez@gmail.com</correo>
+                <direccion>Calle Real 30, Málaga</direccion>
+                <empleo>Arquitecta</empleo>
+            </cliente>
+        </cuenta>
+    </sucursal>
+
+    <sucursal id="2">
+        <cuenta id="10.2">
+            <cliente>
+                <nombre>Javier Torres</nombre>
+                <dni>33445566R</dni>
+                <telefono>699112233</telefono>
+                <correo>javier.torres@gmail.com</correo>
+                <direccion>Plaza Mayor 2, Valladolid</direccion>
+                <empleo>Policia Nacional</empleo>
+            </cliente>
+        </cuenta>
+        <cuenta id="11.2">
+            <cliente>
+                <nombre>Sofía García</nombre>
+                <dni>22114455L</dni>
+                <telefono>671223344</telefono>
+                <correo>sofia.garcia@gmail.com</correo>
+                <direccion>Calle Luna 7, Zaragoza</direccion>
+                <empleo>Enfermera</empleo>
+            </cliente>
+        </cuenta>
+        <cuenta id="12.2">
+            <cliente>
+                <nombre>Andrés Navarro</nombre>
+                <dni>66778899H</dni>
+                <telefono>655667788</telefono>
+                <correo>andres.navarro@gmail.com</correo>
+                <direccion>Calle Verde 18, Bilbao</direccion>
+                <empleo>Abogado</empleo>
+            </cliente>
+        </cuenta>
+    </sucursal>
+
+    <sucursal id="3">
+        <cuenta id="10.3">
+            <!-- Ejemplo de cuenta compartida por 2 personas -->
+            <clientes> 
+                <nombre>Paula Martínez</nombre>
+                <dni>99887766T</dni>
+                <telefono>644556677</telefono>
+                <correo>paula.martinez@gmail.com</correo>
+                <direccion>Calle del Río 5, Alicante</direccion>
+                <empleo>Periodista</empleo>
+
+                <nombre>Hugo Martínez</nombre>
+                <dni>44556677C</dni>
+                <telefono>699445566</telefono>
+                <correo>hugo.romero@gmail.com</correo>
+                <direccion>Calle del Río 5, Alicante</direccion>
+                <empleo>Empresario</empleo>
+            </clientes>
+        </cuenta>
+        <cuenta id="11.3">
+            <cliente>
+                <nombre>Elena Ruiz</nombre>
+                <dni>55667788S</dni>
+                <telefono>633778899</telefono>
+                <correo>elena.ruiz@gmail.com</correo>
+                <direccion>Calle Jardines 11, Granada</direccion>
+                <empleo>Psicóloga</empleo>
+            </cliente>
+        </cuenta>
+    </sucursal>
+</banco>

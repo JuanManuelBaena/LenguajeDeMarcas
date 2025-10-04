@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<agenda xmlns:dir="https://www.google.com/maps">
+    <contacto id="1">
+        <nombre>Paco Gutierrez</nombre>
+        <telefono>600123456</telefono>
+        <dir:direccion>
+            <dir:calle>Carretera Cadiz</dir:calle>
+            <dir:ciudad>Málaga</dir:ciudad>
+            <dir:codigoPostal>29004</dir:codigoPostal>
+        </dir:direccion>
+    </contacto>
+    <contacto id="2">
+        <nombre>Noe Hidalgo</nombre>
+        <telefono>611987654</telefono>
+        <dir:direccion>
+            <dir:calle>Calle Granada</dir:calle>
+            <dir:ciudad>Málaga</dir:ciudad>
+            <dir:CodigoPostal>29015</dir:CodigoPostal>
+        </dir:direccion>
+    </contacto>
+</agenda>
